@@ -38,13 +38,13 @@ const data = {
             image: "./casablanca.png",
             },
             {
-                id: '6',
+                id: '7',
                 name:'A Street Car Named Desiree - Blu-Ray',
                 price: 3, 
                 image: "./streetcar.png",
                 },
                 {
-                    id: '7',
+                    id: '8',
                     name:'A Street Car Named Desiree - Ticket',
                     price: 15,
                     image: "./streetcar.png",
