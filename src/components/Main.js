@@ -1,6 +1,6 @@
 import React from 'react';
 import Movie from './Movie';
-import Basket from './Basket';
+
 import streetcar from '../img/streetcar.png';
 
  function Main(props) {
