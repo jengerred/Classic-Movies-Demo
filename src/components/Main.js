@@ -23,7 +23,7 @@ import streetcar from '../img/streetcar.png';
         <h1 className="fw-light">Featured Film</h1>
         <p><strong>Each week, we feature a classic film and have an accompanying movie screening and Blu-Ray special. This week's is "A Streetcar Named Desire".</strong></p>
         <p> <a className="special-btn" href="#special">Purchase Ticket or Blu-Ray ~ Special</a></p>
-  <img className="big-img" src={streetcar}></img>
+  <img className="big-img" src={streetcar} alt={streetcar}></img>
 
   </section>
  
