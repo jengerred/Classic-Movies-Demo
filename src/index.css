@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-family: open-sans;
+    font-size: 20px;
+    background-color: maroon;
+}
+h1, h2 {
+  font-family: 'Limelight', cursive;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+}
+h3 {
+  font-family: 'Limelight', cursive;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+p {
+  color: black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.title {
+  font-size: 3vw;
+}
+  
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+  }
+
+
+.hero-text {
+    border: 15px dotted white;
+   padding: 40px;
+   box-shadow: 
+   inset 0 0 10px #fff,      /* inner white */
+   inset 2px 0 20px whitesmoke,   /* inner left magenta short */
+   inset 2px 0 20px yellow,  /* inner right cyan short */
+   inset 2px 0 20px whitesmoke,  /* inner left magenta broad */
+   inset 2px 0 20px yellow,
+   0 0 50px #fff,            /* outer white */
+   10px 0 40px white,        /* outer left magenta */
+   10px 0 40px yellow; 
+}
+.about {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+  .featured {
+    margin: 3rem;
+    justify-content: space-around;
+ border: 15px dotted white;
+ box-shadow: 
+ inset 0 0 10px #fff,      /* inner white */
+ inset 2px 0 20px whitesmoke,   /* inner left magenta short */
+ inset 2px 0 20px yellow,  /* inner right cyan short */
+ inset 2px 0 20px whitesmoke,  /* inner left magenta broad */
+ inset 2px 0 20px yellow,
+ 0 0 50px #fff,            /* outer white */
+ 10px 0 40px white,        /* outer left magenta */
+ 10px 0 40px yellow; 
+ background-color: maroon;
+ padding-bottom: 50px;
+ padding-top: 30px;
+  }
+
+  .cart-btn {
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 0.2rem;
+    border-radius: 15px;
+    border: 0.1rem #404040 solid;
+    background-color: #f0c040;
+    width: 50%;
+    cursor: pointer;
+   
+  }
+
+  .btn-add {
+    background-color: #40c0f0;
+    width: fit-content;
+    border-radius: 15px;
+  }
+  .btn-remove {
+    background-color: #f04040;
+    width: fit-content;
+    border-radius: 15px;
+  }
+
+  button:hover {
+    transform: scale(1,1.5);
+  }
+.btn {
+  border-radius: 15px;
+  width: 50%;
+  border: 1px black solid;
+  background-color: #f0c040;
+  margin-top: 10px;
+}
+ 
+.cart {
+border-radius: 20px;
+  display: grid;
+  float: left;
+position: relative;
+margin-left: 30%;
+border: 5px solid black;
+background-color: white;
+margin-bottom: 500px;
+margin-top: 300px;
+}
+.cart-title {
+  border-radius: 20px;
+  background-color: #f0c040;
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  margin: 40px;
+}
+
+.col-1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.movie-ul {
+  list-style: none;
+  display: inline;
+  float: left;
+  margin: 80px;
+  padding: 40px;
+  margin-left: 110px;
+ color: black;
+  border: 15px dotted white;
+  box-shadow: 
+  inset 0 0 10px #fff,      /* inner white */
+  inset 2px 0 20px whitesmoke,   /* inner left white */
+  inset 2px 0 20px yellow,  /* inner right yellow */
+  inset 2px 0 20px whitesmoke,  /* inner left white */
+  inset 2px 0 20px yellow,
+  0 0 50px #fff,            /* outer white */
+  10px 0 40px white,        /* outer yellow */
+  10px 0 40px yellow; 
+}
+
+.movie-ul li {
+  margin-top: 10px;
+}
+.movie-img {
+ height: 200px;
+ width: 200px;
+ margin-bottom: 10px;
+ margin-top: -20px;
+}
+
+.form-label {
+  color: black;
+}
+.payment {
+  padding: 20px;
+  margin: 10px;
+  background-color: whitesmoke;
+}
+.col-md-3 {
+  width: fit-content;
+  padding-bottom: 10px;
+
+}
+.payment-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+.empty {
+padding-right: 250px;
+padding-left: 250px;
+}
+.nav {
+  background-color: white;
+  border-radius: 15px;
+  opacity: 0.5;
+  border: 2px solid black;
+  position: fixed;
+  z-index: 1;
+}
+.price {
+  margin-top: 40px;
+  background-color: white;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 40%;
+}
+.movie-name {
+  background-color: black;
+  color: white;
+box-shadow: 1px 1px 5px 3px whitesmoke, 
+1px 1px 5px 3px yellow;
+}
+.checkout {
+width: 300px;
+margin-left: 40%;
+position: absolute;
+margin-top: 900px;
+z-index: 2;
+}
+.special-btn {
+  width:fit-content;
+  background-color: #f0c040;
+  border-radius: 15px;
+  border: 0.1rem #404040 solid;
+}
+.special-btn:hover {
+  color: black;
+font-size: 30px;
+}
+.featured a {
+  text-decoration: none;
+  color: black;
+}
+
+.special-width {
+  width: 200px;
+  margin-top: 1050px;
+}
+.movies-container {
+border: 2px solid black;
+}
