@@ -1,4 +1,4 @@
-# view nelify live page [here](https://lovely-wisp-706111.netlify.app/)
+# view netlify live page [here](https://lovely-wisp-706111.netlify.app/)
 
 # Getting Started with Create React App
 
