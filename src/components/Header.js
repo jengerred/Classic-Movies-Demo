@@ -1,9 +1,8 @@
 import React from 'react';
-import useWindowSize from "./useWindowSize";
-
 function Header(props) {
+  
   return (
-   
+  
     <header>
         <div className="signin">
 <button className="signup">Sign Up</button>
@@ -25,7 +24,7 @@ function Header(props) {
         <div>
         <div className="hero-text">
             <h1 className="title">Welcome to Hollywood Classic Films!</h1>
-        
+   
             </div>
         </div>
         </header>

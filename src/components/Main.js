@@ -14,10 +14,13 @@ import streetcar from '../img/streetcar.png';
   
 <h1>About</h1>
       <p>We are the internet's premier destination for the classic film buff.</p>
+      <br id="featured"></br>
+      <br></br>
+      <br></br>
       </div>
       </section>
   
-<br id="featured"></br>
+
       <section className="featured">
         <h1 className="fw-light">Featured Film</h1>
         <p><strong>Each week, we feature a classic film and have an accompanying movie screening and Blu-Ray special. This week's is "A Streetcar Named Desire".</strong></p>
