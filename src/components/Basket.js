@@ -1,5 +1,7 @@
 import React from 'react';
 import Payment from './Payment';
+import Billing from './Billing';
+
 
  function Basket(props) {
   const { cartItems, onAdd, onRemove } = props;
@@ -63,7 +65,11 @@ import Payment from './Payment';
               </div>
             </div>
             <hr />
-            <section className="payment" id="payment">
+           <section className="billing">
+              <h1 className="payment-title">Billing</h1>
+              <Billing></Billing>
+              </section>
+              <section className="payment" id="payment">
 <h1 className="payment-title">Payment</h1>
     <Payment></Payment>
 </section>

@@ -4,15 +4,19 @@ function Header(props) {
   return (
    
     <header>
-           <div className="nav">
+        <div className="signin">
+<button className="signup">Sign Up</button>
+<button className="login">Log In</button>
+        </div>
+           <nav>
             <p>
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#featured">Featured</a>
                 <a href="#movies">Movies</a>
                 <a href="#checkout">Checkout</a>
-            </p>
-        </div>
+                </p>
+        </nav>
         <br id="home"></br>
         <br></br>
         <br></br>
