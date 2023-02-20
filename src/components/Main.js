@@ -1,25 +1,24 @@
 import React from 'react';
 import Movie from './Movie';
-
 import streetcar from '../img/streetcar.png';
+
 
  function Main(props) {
   const { movies, onAdd } = props;
   return (
 
 <main> 
-
+<br id="about"></br>
 <section className="about">
 <div>
-    <br id="about"></br>
+  
 <h1>About</h1>
       <p>We are the internet's premier destination for the classic film buff.</p>
       </div>
-    
       </section>
   
-<br></br>
-      <section className="featured" id="featured">
+<br id="featured"></br>
+      <section className="featured">
         <h1 className="fw-light">Featured Film</h1>
         <p><strong>Each week, we feature a classic film and have an accompanying movie screening and Blu-Ray special. This week's is "A Streetcar Named Desire".</strong></p>
         <p> <a className="special-btn" href="#special">Purchase Ticket or Blu-Ray ~ Special</a></p>
@@ -28,6 +27,8 @@ import streetcar from '../img/streetcar.png';
   </section>
  
 <br id="movies"></br>
+<br></br>
+<br></br>
 
       <section>
         <br></br>
@@ -35,14 +36,10 @@ import streetcar from '../img/streetcar.png';
         {movies.map((movie) => (
           <Movie key={movie.id} movie={movie} onAdd={onAdd}></Movie>
         ))}
+          <div className="special-padding" id="special"></div>
      </section>
-
-     <div className="special-width" id="special"></div>
-<div className="checkout" id="checkout">
-    <h1>Checkout</h1>
-</div>
-
      </main>
+
    
   );
 }

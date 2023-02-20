@@ -1,8 +1,11 @@
 import Header from './components/Header';
 import Main from './components/Main';
 import Basket from './components/Basket';
+
+
 import data from './data';
 import { useState } from 'react';
+
 function App() {
   const { movies } = data;
   const [cartItems, setCartItems] = useState([]);
@@ -33,17 +36,21 @@ function App() {
   return (
     <div className="App">
       <Header countCartItems={cartItems.length}></Header>
+    
       <div className="row">
-      
-        <Main movies={movies} onAdd={onAdd}></Main>
-        
-        <Basket
+       <Main movies={movies} onAdd={onAdd}></Main>
+       </div>
+       
+        <div className="row">
+      <Basket
           cartItems={cartItems}
           onAdd={onAdd}
           onRemove={onRemove}
         ></Basket>
+        </div>
+    
       </div>
-    </div>
+ 
   );
 }
 

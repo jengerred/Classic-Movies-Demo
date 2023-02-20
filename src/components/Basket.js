@@ -13,10 +13,10 @@ import Billing from './Billing';
 
   return (
    <>
- 
-    
+<div className="checkout" id="checkout">
+    <h1 className="checkout-title">Checkout</h1>
+
         <div className="cart">
-        
       <h1 className="cart-title">Shopping Cart</h1>
       <div>
         {cartItems.length === 0 && <div className="empty">Cart is empty</div>}
@@ -82,7 +82,7 @@ import Billing from './Billing';
         )}
       </div>
    </div>
-
+   </div>
    </> 
   );
 }
