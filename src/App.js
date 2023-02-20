@@ -1,8 +1,6 @@
 import Header from './components/Header';
 import Main from './components/Main';
 import Basket from './components/Basket';
-
-
 import data from './data';
 import { useState } from 'react';
 
@@ -40,7 +38,7 @@ function App() {
       <div className="row">
        <Main movies={movies} onAdd={onAdd}></Main>
        </div>
-       
+
         <div className="row">
       <Basket
           cartItems={cartItems}
