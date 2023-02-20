@@ -57,11 +57,15 @@ a {
    10px 0 40px yellow; 
 }
 .about {
+  padding: 20px;
+  text-align: center;
   margin-top: 70px;
   margin-bottom: 70px;
+  width: 100vw;
 }
 
   .featured {
+    padding: 40px;
     margin: 3rem;
     justify-content: space-around;
  border: 15px dotted white;
@@ -204,6 +208,7 @@ header {
 text-align: center;
 }
 nav {
+  margin-left: -20px;
   background-color: white;
   border-radius: 15px;
   opacity: 0.5;
@@ -284,6 +289,26 @@ margin-top: 80px;
   .special-padding{
     margin-top: 3550px;
   }
+  .featured {
+    margin-left: 60px;
+    width: 72vw;
+  }
+  .hero-text {
+    Width: 75vw;
+  }
+  .featured-link {
+    font-size: 13px;
+  }
+  .special-btn:hover {
+  font-size: 13px;
+  text-shadow: 
+  1px 0px 0px red;
+  box-shadow:  1px 5px 20px 8px whitesmoke,
+  1px 2px 10px 4px yellow;
+  }
+  .big-img {
+    width: 55vw;
+}
 }
 @media only screen and (max-width: 300px) {
   .special-padding{
